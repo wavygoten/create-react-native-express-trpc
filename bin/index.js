@@ -1,5 +1,5 @@
 #! /usr/bin/env node
-
+import ora from "ora";
 import chalk from "chalk";
 import { exec } from "child_process";
 import readline from "readline";
