@@ -1,0 +1,35 @@
+{
+	"name": "create-react-native-express-trpc",
+	"version": "1.0.0",
+	"description": "Scaffold a vanilla react-native, expressjs, and trpc app with this command npx create-react-native-express-trpc, updated regularly. For those who want simplicity in their codebase.",
+	"main": "./bin/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"bin": {
+		"create-react-native-express-trpc": "bin/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/wavygoten/create-react-native-express-trpc.git"
+	},
+	"keywords": [
+		"trpc",
+		"express",
+		"react-native",
+		"react",
+		"node",
+		"nodejs",
+		"expressjs",
+		"npx"
+	],
+	"author": "wavygoten",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/wavygoten/create-react-native-express-trpc/issues"
+	},
+	"homepage": "https://github.com/wavygoten/create-react-native-express-trpc#readme",
+	"dependencies": {
+		"chalk": "^5.2.0"
+	}
+}
