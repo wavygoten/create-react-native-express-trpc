@@ -55,20 +55,6 @@ const setup = (folderName) => {
 
 			installSpinner.succeed();
 
-			exec(`cd ${folderName} && yarn generate`, (prismaErr) => {
-				if (prismaErr) {
-					prismaSpinner.fail();
-					console.error(
-						chalk.red.bold(
-							`Failed to generate prisma client: ${prismaErr.message}`
-						)
-					);
-					return;
-				}
-
-				prismaSpinner.succeed();
-			});
-
 			console.log(
 				chalk.yellow(
 					"\n🚧 Remember to set up your environment variables properly by:\n1. Duplicating the .env.example file, removing .example, and entering your variables\n\n"
