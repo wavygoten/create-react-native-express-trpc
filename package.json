@@ -1,6 +1,6 @@
 {
 	"name": "create-react-native-express-trpc",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Scaffold a vanilla react-native, expressjs, and trpc app with this command npx create-react-native-express-trpc, updated regularly. For those who want simplicity in their codebase.",
 	"main": "./bin/index.js",
 	"scripts": {
